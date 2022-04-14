@@ -1,7 +1,7 @@
 // const withImages = require("next-images");
 module.exports = {
   images: {
-    domains: ["fakestoreapi.com"],
+    domains: ["content26.com","fakestoreapi.com"],
   },
 };
 // module.exports = withImages();
