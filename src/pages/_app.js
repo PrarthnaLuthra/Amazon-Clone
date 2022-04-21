@@ -5,7 +5,7 @@ import { SessionProvider } from "next-auth/react";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <SessionProvider session = {pageProps.session} basePath="http://localhost:8001/api/auth">
+    <SessionProvider session = {pageProps.session}>
       <Provider store={store}>
         <Component {...pageProps} />
       </Provider>
